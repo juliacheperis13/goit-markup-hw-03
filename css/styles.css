@@ -376,19 +376,13 @@ img {
   row-gap: 48px;
 }
 
-.project-list-item {
-  border: 1px solid var(--cornflower);
-  padding: 0 0 32px 0;
-}
-
-.project-list-item-img {
-  margin: 0 0 32px 0;
+.project-list-info {
+  border-left: 1px solid var(--cornflower);
+  border-right: 1px solid var(--cornflower);
+  border-bottom: 1px solid var(--cornflower);
+  padding: 32px 16px;
 }
 
 .project-list-item .header-3 {
-  padding: 0 16px 8px 16px;
-}
-
-.project-list-item p {
-  padding: 0 16px 0 16px;
+  padding: 0 0 8px 0;
 }
